@@ -28,6 +28,8 @@ function showCommits(coms) {
 }
 
 function getCommits(display_com) {
+  // for id = "details"
+  
   $("#details").html(display_com.map(commit => {
     return (
       `<h4>${commit.sha}</h4>
